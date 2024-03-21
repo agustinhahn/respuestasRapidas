@@ -1,0 +1,18 @@
+[
+    {
+        "id":0,
+        "titulo":"VENTAS"
+    },
+    {
+        "id":1,
+        "titulo":"SOPORTE"
+    },
+    {
+        "id":2,
+        "titulo":"INFO"
+    },
+    {
+        "id":3,
+        "titulo":"ENLACES"
+    }
+]
