@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 const NavbarButton = ({titulo, categoria}) => {
     return (
         <>
-        <Link to={(`/opciones/${categoria}`)}>
+        <Link to={(`/${categoria}`)}>
             <button className='buttonNav'>{titulo}</button>
         </Link>
         </>

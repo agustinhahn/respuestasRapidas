@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import CartContext from './context/CartContext'
 import MapOpciones from './components/MapOpciones'
 import jsonOpciones from "./data/opciones.json"
+import FotitoMessi from './components/FotitoMessi'
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
           <Header />
           <Navbar />
           <Routes>
-            <Route exact path="/opciones/:categoria" element={<MapOpciones data={jsonOpciones} />} />
+            <Route exact path="/" element={<FotitoMessi />} />
+            <Route exact path="/:categoria" element={<MapOpciones data={jsonOpciones} />} />
           </Routes>
         </CartContext>
       </BrowserRouter>
