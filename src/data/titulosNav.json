@@ -1,18 +1,22 @@
 [
     {
         "id":0,
-        "titulo":"VENTAS"
+        "titulo":"VENTAS",
+        "categoria": "VENTAS"
     },
     {
         "id":1,
-        "titulo":"SOPORTE"
+        "titulo":"SOPORTE",
+        "categoria": "SOPORTE"
     },
     {
         "id":2,
-        "titulo":"INFO"
+        "titulo":"INFO",
+        "categoria": "INFO"
     },
     {
         "id":3,
-        "titulo":"ENLACES"
+        "titulo":"ENLACES",
+        "categoria": "ENLACES"
     }
 ]

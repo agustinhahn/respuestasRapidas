@@ -6,7 +6,7 @@ import { ContextCart } from '../context/CartContext';
 import ModalVistaPrevia from './ModalVistaPrevia';
 
 
-const AreaCopyButton = ({ titulo, content, id }) => {
+const AreaCopyButton = ({ titulo, content, id, categoria }) => {
 
     const { modalVP, setModalVP } = useContext(ContextCart)
 

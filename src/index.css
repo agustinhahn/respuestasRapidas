@@ -1,16 +1,13 @@
 body {
-  /* background-color: #92354C; */
-  /* background-color: #000000;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='330' height='39.6' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='5.7' stroke-opacity='0.6'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E"); */
   margin: 0px auto;
   padding: 0px auto;
   height: 100%;
-  background-color: rgb(44, 44, 105);
+  background-color: #0e0d0d;
 }
 
 
 .tituloHeader{
-  color:white;
+  color:#2e2d2d;
   text-align: center;
   font-size: 40px;
   margin-top: 50px;
@@ -23,6 +20,19 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   margin-bottom: 50px;
 }
 
+.buttonNav {
+  color: white;
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.buttonNav:hover {
+  color: #2e2d2d; /* Color de texto cuando haces hover */
+}
 .areaCopyB{
   display: flex;
   flex-direction: column;
@@ -35,14 +45,53 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .copybutton{
-  width: 300px;
-  margin: 20px;
+  margin: 12px;
+  height: 50px;
+  min-width: 500px;
+  border-radius: 1px;
+  background: #1b1b1b;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  color: rgb(206, 206, 206);
+  transition: 300ms;
 }
 
-.buttonVista{
-  width: 60px;
-  margin: 20px;
+.copybutton:hover {
+  box-shadow: 2px 2px 2px #222222, 2px 2px 10px #222, inset 2px 2px 2px #222,
+    inset 2px 2px 2px #222222;
+  color: #dad4d4;
+  font-size: 16px;
+  transition: 500ms;
 }
+
+
+
+.buttonVista{
+  margin: 12px;
+  height: 50px;
+  min-width: 50px;
+  border-radius: 50px;
+  background: #1b1b1b;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  color: rgb(206, 206, 206);
+  transition: 300ms;
+}
+
+.buttonVista:hover {
+  box-shadow: -5px -5px 15px #222222, 5px 5px 15px #222, inset 5px 5px 10px #222,
+    inset -5px -5px 10px #222222;
+  color: #dad4d4;
+  font-size: 18px;
+  transition: 500ms;
+}
+
 
 .modalVistaPrevia{
   background-color: white;

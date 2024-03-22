@@ -1,32 +1,44 @@
 [
     {
         "id": 0,
+        "categoria": "soporte",
         "titulo": "Subida saturada",
         "content": "Actualmente estas saturando la subida de internet en tu conexión. Es decir que desde algún dispositivo, estas generando un consumo elevado hacia un servidor. Usualmente, la subida solo gestiona solicitudes para descargar algo, en este caso actual es constante el envio de paquetes y podemos presuponer que estas subiendo algo. Normalmente se trata de la app *GOOGLE FOTOS* incluida por defecto en todos los teléfonos android o de la copia de seguridad de *Whatsapp*.  Le recomendamos deshabilitar google fotos definitiva o parcialmente siguiendo los pasos en la siguiente guia que le adjuntaremos."
     },
     {
         "id": 1,
+        "categoria": "soporte",
         "titulo": "Descarga saturada",
         "content": "El inconveniente que notamos en su conexion es que esta saturando la velocidad contratada de descarga. Es decir que todo su ancho de banda (capacidad para transmitir datos) esta siendo utilizado, esto puede deberse principalmente a descarga de juegos de playstation/actualizaciones de PC o bien, el uso en conjunto de diversos dispositivos operando en internet.\n Le recomendamos inicialmente revisar que no se este llevando a cabo ninguna descarga de los elementos antes mencionados, y de ser asi. Pausarla o aguardar a que finalice para tener nuevamente libre su flujo de datos."
     },
     {
         "id": 2,
+        "categoria": "soporte",
         "titulo": "Antena apagada",
         "content": "Notamos que su antena se encuentra apagada/desconectada/desconfigurada.\n\nSiga los siguientes pasos para poder determinarlo.\n\n1- Verificar que la fuente principal este encendida y conectada como en la foto.\n2- Apague la fuente desconectándola de la tensión eléctrica y volver a conectar.\n3- Aguarde unos minutos y volver a intentar conectarse. En caso de no obtener resultados al cabo de 5 minutos, informar nuevamente para una nueva revisión del servicio."
     },
     {
         "id": 3,
+        "categoria": "soporte",
         "titulo": "Traer router oficina",
         "content": "Tendrá que acercarse con el router wifi a la empresa (Eva peron 1944, entre pablo iglesias y garay), de lunes a viernes en el horario de 8 a 14hs.\n Tocando el timbre 3 veces o avisando via whatsapp se le atendera para configurar el router wifi."
     },
     {
         "id": 4,
+        "categoria": "soporte",
         "titulo": "Guia configurar mercusys desde 0",
         "content": "Una vez detectada la red MERCUSYS_(codigo)\n1- mover el cable principal de internet hacia el puerto WAN del router.\n2- Conectarse a la red MERCUSYS_(codigo)\nA partir de aqui usted ya tendra internet. Luego es opcional seguir:\n3- DESDE UN NAVEGADOR WEB ingresar el siguiente codigo:\nIP acceso (en la url del buscador): 192.168.1.1\n4- te pide clave nueva poner: admin123456\nte pide nuevamente la clave poner: admin123456\n*tipo de conexión: IP DINAMICA*\n5- te pide nombre: PONER EL QUE QUIERAS DE WIFI\nte pide clave: PONER LA QUE QUIERAS DE WIFI\ndar en terminar. Listo disfrute de su conexion."
     },
     {
         "id":5,
+        "categoria": "soporte",
         "titulo":"Guia configurar TPLINK 820n desde 0",
         "content":"Una vez detectada la red TP LINK\n1- mover el cable principal de internet hacia el puerto WAN del router.\n2- Conectarse a la red TP LINK_(codigo)\n3- La contraseña esta escrita debajo del router, son 8 digitos (PIN/PASSWORD)\nA partir de aqui ya tendra internet. Luego es opcional seguir\n4- *DESDE UN NAVEGADOR WEB ingresar el siguiente codigo*\nIP acceso (en la url del buscador): 192.168.0.1\n5- te pide clave nueva poner: admin123456\nte pide nuevamente la clave poner: admin123456\ntipo de conexión: ip dinámica\n6- te pide nombre: PONER EL QUE QUIERAS DE WIFI\nte pide clave: PONER LA QUE QUIERAS DE WIFI\ndar en terminar. Listo disfrute de su conexion.\n"
+    },
+    {
+        "id":6,
+        "categoria": "ventas",
+        "titulo": "Medios de pago",
+        "content": "MEDIOS DE PAGO\nMétodo de cobro sin factura.\n•Rapipago (código de factura)\n•Pagofacil (código de usuario)\n▪MercadoPago\n•Tarjeta de crédito\n•Tarjeta de debito\n•Debito automatico (con tarjeta de credito)\n▪Transferencia/Depósito por CBU\n▪Pagomiscuentas"
     }
 ]

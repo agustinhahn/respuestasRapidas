@@ -1,9 +1,11 @@
 import React from 'react'
-
-const NavbarButton = ({titulo}) => {
+import {Link} from 'react-router-dom'
+const NavbarButton = ({titulo, categoria}) => {
     return (
         <>
-            <button>{titulo}</button>
+        <Link to={(`/opciones/${categoria}`)}>
+            <button className='buttonNav'>{titulo}</button>
+        </Link>
         </>
     )
 }

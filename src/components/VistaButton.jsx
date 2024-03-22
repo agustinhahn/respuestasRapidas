@@ -25,7 +25,7 @@ const VistaButton = ({modalVP,setModalVP, id}) => {
 
     return (
         <div>
-            <button className='buttonVista' onClick={openModal}>VistaP</button>
+            <button className='buttonVista' onClick={openModal}>+</button>
         </div>
     )
 }

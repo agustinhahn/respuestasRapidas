@@ -9,7 +9,7 @@ const Navbar = () => {
         {
             jsonDataNav.map(item => (
                 <div key={item.id}>
-                    <NavbarButton titulo={item.titulo} />
+                    <NavbarButton titulo={item.titulo} categoria={item.categoria} />
                 </div>
             ))
         }
