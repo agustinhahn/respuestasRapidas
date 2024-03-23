@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "titulo":"GRILLAS",
+        "direccion":"https://docs.google.com/spreadsheets/d/12d-6pkQjavX4FpFgPSwYk1D3qci_IymjG8rP45FuBkU/edit#gid=1305078462"
+    },
+    {
+        "id":2,
+        "titulo":"TICKETS LLAMADOS",
+        "direccion":"https://docs.google.com/spreadsheets/d/12oDDvbBRNT3cL47DYcfk98xPWm2Kylql/edit#gid=1003098540"
+    },
+    {
+        "id":3,
+        "titulo":"NETONIX's",
+        "direccion":"https://docs.google.com/spreadsheets/d/13u_NP3negP4RBVLHfDgMdvgi0RfA9WlnkhihsCLE4Vo/edit#gid=0"
+    },
+    {
+        "id":4,
+        "titulo":"ACCESSPOINT's",
+        "direccion":"https://docs.google.com/spreadsheets/d/1X0z9Q3NNQLZFPjqGss3z-ViGKwGz8Wy2G45j69sXpPY/edit#gid=0"
+    },
+    {
+        "id":8,
+        "titulo":"PRIORIDADES",
+        "direccion":"https://docs.google.com/spreadsheets/d/11Z6VAFdi-byAJ2s3UAN5QIuw54tsGBK5HmXpixA1HYI/edit#gid=0"
+    },
+    {
+        "id":6,
+        "titulo":"ENLACES",
+        "direccion":"https://docs.google.com/spreadsheets/d/1mS97EZpgLrcmZZHoTXA-roSY9X_tv0zL1nqzmBM-QcE/edit#gid=0"
+    },
+    {
+        "id":5,
+        "titulo":"SEGUIMIENTOS DE FIBRA",
+        "direccion":"https://docs.google.com/spreadsheets/d/1V0HHQhb3eSBX8cij2uK6kwigQKL2Rg9Q0SAlOVhSnzI/edit#gid=1875890651"
+    },
+    {
+        "id":7,
+        "titulo":"BALANCEO DE PANELES",
+        "direccion":"https://docs.google.com/spreadsheets/d/170Be5GPP5OJRkLjqkqsNssHvKKwQ9a8zaJKe-f9gJQw/edit#gid=657128882"
+    }
+]

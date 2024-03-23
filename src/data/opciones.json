@@ -1,44 +1,150 @@
 [
     {
-        "id": 0,
-        "categoria": "soporte",
-        "titulo": "Subida saturada",
-        "content": "Actualmente estas saturando la subida de internet en tu conexión. Es decir que desde algún dispositivo, estas generando un consumo elevado hacia un servidor. Usualmente, la subida solo gestiona solicitudes para descargar algo, en este caso actual es constante el envio de paquetes y podemos presuponer que estas subiendo algo. Normalmente se trata de la app *GOOGLE FOTOS* incluida por defecto en todos los teléfonos android o de la copia de seguridad de *Whatsapp*.  Le recomendamos deshabilitar google fotos definitiva o parcialmente siguiendo los pasos en la siguiente guia que le adjuntaremos."
+        "id": 18,
+        "categoria": "ventas",
+        "titulo": "INFO FIBRA OPTICA",
+        "content": "*SERVICIO POR FIBRA OPTICA*\n\nTe explico brevemente, la instalación cuesta $40.000 (con tarjeta en *hasta 3 cuotas sin interés!*) o $30.000 en efectivo, importe que debe ser abonado en el momento de la conexión. *PROMO 50% OFF ya incluida*. Se Incluye también la instalación de un modem wifi en COMODATO.\n\n*PLANES MARZO*:\nAbono 6Mbps $9900.\nAbono 10Mbps $11.500.\nAbono 15Mbs $13.500. Pero con nuestro descuento fijo de $2000, solo pagarás $11.500 al mes!\nAbono PROMO 20Mbps $14.900. Pero con nuestro descuento fijo de $2000, solo pagarás $12.900 al mes!\nAbono PROMO 50Mbps $15.600. Pero con nuestro descuento fijo de $2000, solo pagarás $13.600 al mes!\nAbono PROMO 100Mbps $19.200. Pero con nuestro descuento fijo de $2000, solo pagarás $17.200 al mes!\n\n*Descuento de $2000 válido por 6 meses, abono mensual sujeto a modificaciones*\n\nIncluido además nuestra plataforma virtual de películas, series y canales de tv online GRATIS\nLa instalación cuenta también con bonificación de los primeros 15 días de uso. Usted pagaría su primer cuota una vez finalizado ese plazo (comunicándose por este medio se le informará de los medios de pago y fecha de vencimiento correspondiente).\n\nLA DEMORA PUEDE VARIAR, CONSULTAR"
     },
     {
-        "id": 1,
-        "categoria": "soporte",
-        "titulo": "Descarga saturada",
-        "content": "El inconveniente que notamos en su conexion es que esta saturando la velocidad contratada de descarga. Es decir que todo su ancho de banda (capacidad para transmitir datos) esta siendo utilizado, esto puede deberse principalmente a descarga de juegos de playstation/actualizaciones de PC o bien, el uso en conjunto de diversos dispositivos operando en internet.\n Le recomendamos inicialmente revisar que no se este llevando a cabo ninguna descarga de los elementos antes mencionados, y de ser asi. Pausarla o aguardar a que finalice para tener nuevamente libre su flujo de datos."
+        "id":15,
+        "categoria":"ventas",
+        "titulo":"INFO SERVICIO INALAMBRICO",
+        "content":"*SERVICIO INALAMBRICO*:\n\nTe explico brevemente, la instalación cuesta $30.000 (sin router wifi) y $50.000 (con router wifi), importe que debe ser abonado en el momento de la conexión.\nSe instala una pequeña antena en el techo o terraza del domicilio (queda en COMODATO).\n\n*PLANES MARZO*:\nAbono 3 Mbps $9.800 (impuestos incluidos)\nAbono 6 Mbps $11.700 (incluye ACCESO GRATUITO a plataforma propia de vídeos, películas y series) (impuestos incluidos)\nAbono 10 Mbps $13.200( incluye ACCESO GRATUITO a plataforma propia de vídeos, películas y series) (impuestos incluidos)\n\n*Abono mensual sujeto a modificaciones*\n\nLa instalación cuenta además con la bonificación de los primeros 15 días de uso.\nUsted pagaría su primer cuota una vez finalizado ese plazo (comunicándose por este medio se le informará de los medios de pago y fecha de vencimiento correspondiente).\n\n*/LA DEMORA PUEDE VARIAR/*"
+    },
+    {
+        "id":10,
+        "categoria":"ventas",
+        "titulo":"ALTA DE SERVICIO",
+        "content":"*ALTA DE SERVICIO*\n\nPor favor complete los siguientes datos para dar de alta su solicitud:\n\nNombre y apellido completo:\nDomicilio de conexión:\nTeléfono de contacto:\nDni:\nEmail:\nPlan / abono mensual elegido:\n"
+    },
+    {
+        "id": 19,
+        "categoria": "ventas",
+        "titulo": "INFO MIGRACION A FIBRA OPTICA",
+        "content": "*MIGRACION A FIBRA OPTICA*\n\nTe explico brevemente, la migración a esta nueva tecnología cuesta $10000 (puede abonarse en 4 cuotas sin interes) PROMO 50% OFF ya incluida\n\nPLANES MARZO\nAbono 6Mbps $9900\nAbono 10Mbps $11500\nAbono 15Mbs $13500\nAbono 20Mbps $14900\nAbono 50Mbps $15600\nAbono 100Mbps $19200\n\nIncluido además nuestra plataforma virtual de películas, series y canales de tv online GRATIS\nDe esta manera tendrá más velocidad y mejor servicio, a un costo menor."
+    },
+    {
+        "id":9,
+        "categoria":"ventas",
+        "titulo":"CBU",
+        "content":"*CBU*\n\nTiene por Clave Bancaria Uniforme (CBU) el número 2850343930094095782821\n\nALIAS: amecom.internet"
+    },
+    {
+        "id":16,
+        "categoria":"ventas",
+        "titulo":"PLATAFORMA DE CONTENIDO",
+        "content":"*PLATAFORMA DE TELEVISIÓN*\n\nEs una página web de nuestro dominio, solo accesible para nuestros clientes, no necesita registrarse ni pagar nada extra para usarla.\nSe puede conectar en cualquier dispositivo que tenga navegador web como televisores, celulares, notebook y demás.\nNo hay límites de conectados, es decir, pueden estar todos en la casa mirando algo distinto y no habría problema.\nTiene principalmente contenido de series y películas extraídas de todas las plataformas más importantes como netflix, hbo, amazon, star plus.\nSi bien no cuenta con TODO el contenido de cada una de ellas, tiene gran variedad y estrenos de cine.\nA su vez, cuenta con algunos canales de aire principalmente informativos."
     },
     {
         "id": 2,
         "categoria": "soporte",
-        "titulo": "Antena apagada",
+        "titulo": "ANTENA APAGADA",
         "content": "Notamos que su antena se encuentra apagada/desconectada/desconfigurada.\n\nSiga los siguientes pasos para poder determinarlo.\n\n1- Verificar que la fuente principal este encendida y conectada como en la foto.\n2- Apague la fuente desconectándola de la tensión eléctrica y volver a conectar.\n3- Aguarde unos minutos y volver a intentar conectarse. En caso de no obtener resultados al cabo de 5 minutos, informar nuevamente para una nueva revisión del servicio."
+    },
+    {
+        "id": 1,
+        "categoria": "soporte",
+        "titulo": "DESCARGA SATURADA",
+        "content": "El inconveniente que notamos en su conexion es que esta saturando la velocidad contratada de descarga. Es decir que todo su ancho de banda (capacidad para transmitir datos) esta siendo utilizado, esto puede deberse principalmente a descarga de juegos de playstation/actualizaciones de PC o bien, el uso en conjunto de diversos dispositivos operando en internet.\n Le recomendamos inicialmente revisar que no se este llevando a cabo ninguna descarga de los elementos antes mencionados, y de ser asi. Pausarla o aguardar a que finalice para tener nuevamente libre su flujo de datos."
+    },
+    {
+        "id": 0,
+        "categoria": "soporte",
+        "titulo": "SUBIDA SATURADA",
+        "content": "Actualmente estas saturando la subida de internet en tu conexión.\nEs decir que desde algún dispositivo, estas generando un consumo elevado hacia un servidor. Usualmente, la subida solo gestiona solicitudes para descargar algo, en este caso actual es constante el envio de paquetes y podemos presuponer que estas subiendo algo. Normalmente se trata de la app *GOOGLE FOTOS* incluida por defecto en todos los teléfonos android o de la copia de seguridad de *Whatsapp*.  Le recomendamos deshabilitar google fotos definitiva o parcialmente siguiendo los pasos en la siguiente guia que le adjuntaremos."
     },
     {
         "id": 3,
         "categoria": "soporte",
-        "titulo": "Traer router oficina",
-        "content": "Tendrá que acercarse con el router wifi a la empresa (Eva peron 1944, entre pablo iglesias y garay), de lunes a viernes en el horario de 8 a 14hs.\n Tocando el timbre 3 veces o avisando via whatsapp se le atendera para configurar el router wifi."
+        "titulo": "TRAER ROUTER A OFICINA",
+        "content": "Tendrá que acercarse con el router wifi a la empresa (Eva peron 1944, entre pablo iglesias y garay), de lunes a viernes en el horario de 8 a 14hs.\nTocando el timbre 3 veces o avisando via whatsapp se le atendera para configurar el router wifi."
     },
     {
         "id": 4,
         "categoria": "soporte",
-        "titulo": "Guia configurar mercusys desde 0",
+        "titulo": "GUIA CONFIGURAR MERCUSYS DESDE 0",
         "content": "Una vez detectada la red MERCUSYS_(codigo)\n1- mover el cable principal de internet hacia el puerto WAN del router.\n2- Conectarse a la red MERCUSYS_(codigo)\nA partir de aqui usted ya tendra internet. Luego es opcional seguir:\n3- DESDE UN NAVEGADOR WEB ingresar el siguiente codigo:\nIP acceso (en la url del buscador): 192.168.1.1\n4- te pide clave nueva poner: admin123456\nte pide nuevamente la clave poner: admin123456\n*tipo de conexión: IP DINAMICA*\n5- te pide nombre: PONER EL QUE QUIERAS DE WIFI\nte pide clave: PONER LA QUE QUIERAS DE WIFI\ndar en terminar. Listo disfrute de su conexion."
     },
     {
         "id":5,
         "categoria": "soporte",
-        "titulo":"Guia configurar TPLINK 820n desde 0",
+        "titulo":"GUIA CONFIGURAR TPLINK 820n DESDE 0",
         "content":"Una vez detectada la red TP LINK\n1- mover el cable principal de internet hacia el puerto WAN del router.\n2- Conectarse a la red TP LINK_(codigo)\n3- La contraseña esta escrita debajo del router, son 8 digitos (PIN/PASSWORD)\nA partir de aqui ya tendra internet. Luego es opcional seguir\n4- *DESDE UN NAVEGADOR WEB ingresar el siguiente codigo*\nIP acceso (en la url del buscador): 192.168.0.1\n5- te pide clave nueva poner: admin123456\nte pide nuevamente la clave poner: admin123456\ntipo de conexión: ip dinámica\n6- te pide nombre: PONER EL QUE QUIERAS DE WIFI\nte pide clave: PONER LA QUE QUIERAS DE WIFI\ndar en terminar. Listo disfrute de su conexion.\n"
     },
     {
         "id":6,
         "categoria": "ventas",
-        "titulo": "Medios de pago",
-        "content": "MEDIOS DE PAGO\nMétodo de cobro sin factura.\n•Rapipago (código de factura)\n•Pagofacil (código de usuario)\n▪MercadoPago\n•Tarjeta de crédito\n•Tarjeta de debito\n•Debito automatico (con tarjeta de credito)\n▪Transferencia/Depósito por CBU\n▪Pagomiscuentas"
+        "titulo": "MEDIOS DE PAGO",
+        "content": "*MEDIOS DE PAGO*\n\nMétodo de cobro sin factura.\n•Rapipago (código de factura)\n•Pagofacil (código de usuario)\n▪MercadoPago\n•Tarjeta de crédito\n•Tarjeta de debito\n•Debito automatico (con tarjeta de credito)\n▪Transferencia/Depósito por CBU\n▪Pagomiscuentas"
+    },
+    {
+        "id":8,
+        "categoria":"ventas",
+        "titulo":"LOCALES HABILITADOS",
+        "content":"*Clientes  VGG*\n\n-Local CREDIFIN (frente al club Talleres) \n-Mitre 1354 (local de claro)\n-Mitre 1116 (local de personal)\n\n*Clientes ESTHER*-San martin 1856 (Local Celulares)\n\n*Clientes ARROYO*\n-san martin 753\n\nRecuerde también puede abonar ONLINE desde\nhttps://link.mercadopago.com.ar/amecominternet"
+    },
+    {
+        "id":7,
+        "categoria":"ventas",
+        "titulo":"CODIGOS DE PAGO",
+        "content":"*CÓDIGOS DE PAGO*\n\nSu código de factura para abonar en cualquier *RAPIPAGO* es B-000600\nSu código de usuario para abonar en cualquier *PAGOFACIL* es "
+    },
+    {
+        "id":11,
+        "categoria":"soporte",
+        "titulo":"GUIA CONFIGURAR TENDA DESDE 0",
+        "content":"Una vez detectada la red TENDA_(codigo):\n1- mover el cable principal de internet hacia el puerto WAN del router.\n2- Conectarse a la red TENDA_(codigo)\nA partir de aqui usted ya tendra internet. Luego es opcional seguir\n3- *DESDE UN NAVEGADOR WEB ingresar el siguiente codigo*\nIP acceso (en la url del buscador): 192.168.0.1\n4- tipo de conexión: IP DINÁMICA\n5- te pide nombre: PONER EL QUE QUIERAS DE WIFI\nte pide clave: PONER LA QUE QUIERAS DE WIFI\ndar en terminar. Listo disfrute de su conexion.\n"
+    },
+    {
+        "id":12,
+        "categoria":"soporte",
+        "titulo":"GUIA TP LINK VIEJO DESCONFIGURADO",
+        "content":"Una vez detectada la red TP LINK_(codigo)\n1- mover el cable principal de internet hacia el puerto WAN del router.\n2- Conectarse a la red TP LINK_(codigo) para ello usar la clave que esta debajo\ndel router identificada como “PIN” / “PASSWORD” / “CONTRASEÑA”\nA partir de aqui usted ya tendra internet.\n"
+    },
+    {
+        "id":13,
+        "categoria":"soporte",
+        "titulo":"GUIA CAMBIO DE CLAVE ONU HUAWEI",
+        "content":"1-Abrir explorador web y tipiar: 192.168.100.1\nusuario: root\nclave: adminHW\n\nPANTALLA INICIAL APRETAR EXIT\nPRESIONAR SOBRE ENGRANAJE (ULTIMO ITEM)\n-INGRESAR A WLAN\nalli buscar señal wifi 2.4ghz y veras en password tu clave actual. Reemplazarla.\nguardar los cambios y conectarte."
+    },
+    {
+        "id":14,
+        "categoria":"soporte",
+        "titulo":"GUIA CAMBIO DE CLAVE ONU HUAWEI AMECOM",
+        "content":"1-Abrir explorador web y tipiar: 192.168.100.1\nusuario: admin\nclave: admin\n\nPANTALLA INICIAL APRETAR EXIT\nPRESIONAR SOBRE ENGRANAJE (ULTIMO ITEM)\n-INGRESAR A WLAN\nalli buscar señal wifi 2.4ghz y veras en password tu clave actual. Reemplazarla.\nguardar los cambios y conectarte."
+    },
+    {
+        "id":17,
+        "categoria":"info",
+        "titulo":"PRECIOS DE ARTICULOS/SERVICIOS",
+        "content":"Mudanza $12000\nVisita tecnica $4500\nCable por metro $700\nCable fibra por metro $190\nRouter wifi $32000\nRouter usado $20000\nRouter f6 (tenda grande) $38000\nFuente poe $8000\nFuente router $7000\nFuente onu $7000"
+    },
+    {
+        "id": 20,
+        "categoria": "ventas",
+        "titulo": "PROMOCION POR REFERIDO",
+        "content": "*PROMO REFERIDOS*\n\nPor tiempo limitado, estamos dando la oportunidad a nuestros usuarios que promuevan el servicio con sus vecinos, amigos y familiares que esten en busca de una nueva conexion a internet por fibra optica más rapida y confiable. Si tenes una referencia de este tipo y esa persona esta interesada en tu propuesta podes pasarnos sus datos (nombre, direccion, telefono, plan solicitado) para que gestionemos una visita de instalación.\n\nBENEFICIO: Una vez completada esta instalacion, usted accederá a 1 mes de servicio totalmente gratis (sea cual sea su plan).\n\nCONDICION: maximo de referidos por usuario registrado es 1 (uno)\n\npromocion sujeta a disponibilidad en la zona vendida."
+    },
+    {
+        "id": 21,
+        "categoria": "ventas",
+        "titulo": "INFO  SERVICIO PARA EMPRESAS",
+        "content": "*INFORMACION DE SERVICIO PARA EMPRESAS*\n\nEl servicio de internet que proveemos es inalámbrico (via antena de radiofrecuencia), y pueden optar por un servicio NO DEDICADO o DEDICADO punto a punto. La diferencia es que el dedicado es ILIMITADO en su cuota y permite brindar mayor ancho de banda SIMÉTRICA, estabilidad, seguridad y disponibilidad.\n\nAmbos tienen soporte técnico gratuito, IP PUBLICA fija, y atención personalizada de un ejecutivo de cuenta.\n\n*Planes de Servicio de Internet no dedicado (ancho de banda real garantizado, enlace punto a punto)*\n\n ABONO EMPRESAS 1 MB download, 1mb upload ................................................. $11.600 (final, Impuestos ya incluidos)\n ABONO EMPRESAS 3 MB download, 1mb upload ................................................. $15.120 (final, Impuestos ya incluidos)\n ABONO EMPRESAS 6 MB download, 2mb upload ................................................. $20.500 (final, Impuestos ya incluidos)\n ABONO EMPRESAS 10 MB download, 4mb upload ............................................... $32.000 (final, Impuestos ya incluidos)\n\n*Costo de Instalación: $70000/.- (NO INCLUYE ROUTER - se puede sumar por $35000/ extra)*"
+    },
+    {
+        "id": 22,
+        "categoria": "ventas",
+        "titulo": "INFO EMPRESAS DEDICADO",
+        "content": "*Planes de servicio de internet simetrico y dedicado:*\n\nABONO EMPRESAS 10 MB    180 usd (final, Impuestos ya incluidos)\nABONO EMPRESAS 20 MB  320 usd (final, Impuestos ya incluidos)\nABONO EMPRESAS 50 MB    520 usd (final, Impuestos ya incluidos)\nABONO EMPRESAS 100 MB   950 usd  (final, Impuestos ya incluidos)"
+    },
+    {
+        "id": 23,
+        "categoria": "ventas",
+        "titulo": "INFO FIBRA OPTICA EMPRESA NO DEDICADO",
+        "content": "*Planes de servicio de Internet empresa por fibra optica:*\n\nAbono 20Mbps $19000 FINALES\nAbono 50Mbps $25600 FINALES\nAbono 100Mbps $38400 FINALES"
     }
+    
+    
+    
+    
 ]

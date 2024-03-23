@@ -3,6 +3,11 @@ body {
   padding: 0px auto;
   height: 100%;
   background-color: #0e0d0d;
+  overflow-y: scroll;
+}
+
+.content {
+  padding-right: 15px; /* Ancho de la barra de desplazamiento */
 }
 
 
@@ -15,41 +20,19 @@ body {
   letter-spacing: 9px;
   font-weight: 300;
 }
-
-.slide-in-left {
-  -webkit-animation: slide-in-left 0.8s cubic-bezier(0.950, 0.050, 0.795, 0.035) both;
-  animation: slide-in-left 0.8s cubic-bezier(0.950, 0.050, 0.795, 0.035) both;
+.flicker {
+  animation-name: flicker;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes slide-in-left {
-  0% {
-    -webkit-transform: translateX(-1000px);
-    transform: translateX(-1000px);
-    opacity: 0;
-  }
-
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1;
-  }
+@keyframes flicker {
+  0% {opacity: 1;}
+  25% {opacity: 0.5;}
+  50% {opacity: 1;}
+  75% {opacity: 0.5;}
+  100% {opacity: 1;}
 }
-
-@keyframes slide-in-left {
-  0% {
-    -webkit-transform: translateX(-1000px);
-    transform: translateX(-1000px);
-    opacity: 0;
-  }
-
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-
 
 .buttonsNav {
   display: flex;
@@ -76,6 +59,10 @@ body {
   /* Color de texto cuando haces hover */
 }
 
+.aheader{
+  text-decoration: none;
+}
+
 .areaCopyB {
   display: flex;
   flex-direction: column;
@@ -87,17 +74,24 @@ body {
   display: flex;
 }
 
+.enlaceButton{
+  display: flex;
+  justify-content: center;
+  padding-right: 73px;
+  text-decoration: none;
+}
+
 .copybutton {
   margin: 12px;
   height: 50px;
-  min-width: 500px;
+  width: 500px;
   border-radius: 1px;
   background: #1b1b1b;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   border: none;
-  font-size: 15px;
+  font-size: 14px;
   color: rgb(206, 206, 206);
   transition: 300ms;
   font-family: "Open Sans", sans-serif;
@@ -199,5 +193,3 @@ body {
   display: flex;
   justify-content: center;
 }
-
-/* ROCKET */
