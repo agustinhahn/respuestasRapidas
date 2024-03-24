@@ -1,0 +1,52 @@
+[
+    {
+        "id":1,
+        "content": "crack",
+        "valor": 1
+    },
+    {
+        "id":2,
+        "content": "maquina del mal",
+        "valor": 2
+    },
+    {
+        "id":3,
+        "content": "bestia jurasica",
+        "valor": 3
+    },
+    {
+        "id":4,
+        "content": "jack el destripador",
+        "valor": 4
+    },
+    {
+        "id":5,
+        "content": "tony montana",
+        "valor": 5
+    },
+    {
+        "id":6,
+        "content": "escultura griega",
+        "valor": 6
+    },
+    {
+        "id":7,
+        "content": "capoeira",
+        "valor": 7
+    },
+    {
+        "id":8,
+        "content": "sabio de la montaña",
+        "valor": 8
+    },
+    {
+        "id":9,
+        "content": "dios del ftth",
+        "valor": 9
+    },
+    {
+        "id":10,
+        "content": "terreneitor",
+        "valor": 10
+    }
+]

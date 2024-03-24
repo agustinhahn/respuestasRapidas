@@ -1,6 +1,8 @@
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Zoom } from 'react-toastify';
+import jsonCopyText from "../data/copy.json"
+
 const CopyButton = ({ titulo, content }) => {
 
     const copiarTextoAlPortapapeles = () => {
@@ -8,11 +10,16 @@ const CopyButton = ({ titulo, content }) => {
         avisoCopy()
     }
 
+    const randomNumber = Math.ceil((Math.random())*10)
+    let ContentCopy = jsonCopyText.find(item => item.valor === randomNumber)
 
+
+
+    
     const avisoCopy = () => {
-        toast.success('Esta copiado crack', {
+        toast.success(`Esta copiado ${ContentCopy.content}`, {
             position: "bottom-center",
-            autoClose: 200,
+            autoClose: 300,
             hideProgressBar: true,
             closeOnClick: false,
             pauseOnHover: true,
