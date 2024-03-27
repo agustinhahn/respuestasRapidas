@@ -18,22 +18,52 @@
         "content":"*ALTA DE SERVICIO*\n\nPor favor complete los siguientes datos para dar de alta su solicitud:\n\nNombre y apellido completo:\nDomicilio de conexión:\nTeléfono de contacto:\nDni:\nEmail:\nPlan / abono mensual elegido:\n"
     },
     {
+        "id": 25,
+        "categoria": "ventas",
+        "titulo": "EXPLICACION SOBRE EXTENSION",
+        "content": "En los domicilios que precisan propagar su señal de wifi mas allá de la obtenida con el router principal, ofrecemos una solución que consiste en interconectarlo con un router secundario que va a funcionar como expansor de señal.\nEsta tarea se solicita por medio de whatsapp confirmando este mensaje para que se brinde un turno en el lapso de 5 a 10 días.\nLa visita tendría el costo de visita técnica + router wifi + cable que se utilice para interconectar ambos equipamientos."
+    },
+    {
         "id": 19,
         "categoria": "ventas",
         "titulo": "INFO MIGRACION A FIBRA OPTICA",
         "content": "*MIGRACION A FIBRA OPTICA*\n\nTe explico brevemente, la migración a esta nueva tecnología cuesta $10000 (puede abonarse en 4 cuotas sin interes) PROMO 50% OFF ya incluida\n\nPLANES MARZO\nAbono 6Mbps $11.800\nAbono 10Mbps $13.800\nAbono 15Mbs $16.200\nAbono 20Mbps $17.800\nAbono 50Mbps $18.700\nAbono 100Mbps $23.000\n\nIncluido además nuestra plataforma virtual de películas, series y canales de tv online GRATIS\nDe esta manera tendrá más velocidad y mejor servicio, a un costo menor."
     },
     {
+        "id":17,
+        "categoria":"info",
+        "titulo":"PRECIOS DE ARTICULOS/SERVICIOS",
+        "content":"Mudanza $12000\nVisita tecnica $4500\nCable por metro $700\nCable fibra por metro $190\nRouter wifi $32000\nRouter usado $20000\nRouter f6 (tenda grande) $38000\nFuente poe $8000\nFuente router $7000\nFuente onu $7000"
+    },
+    {
         "id":9,
-        "categoria":"ventas",
+        "categoria":"info",
         "titulo":"CBU",
         "content":"*CBU*\n\nTiene por Clave Bancaria Uniforme (CBU) el número 2850343930094095782821\n\nALIAS: amecom.internet"
     },
     {
+        "id":6,
+        "categoria": "info",
+        "titulo": "MEDIOS DE PAGO",
+        "content": "*MEDIOS DE PAGO*\n\nMétodo de cobro sin factura.\n•Rapipago (código de factura)\n•Pagofacil (código de usuario)\n▪MercadoPago\n•Tarjeta de crédito\n•Tarjeta de debito\n•Debito automatico (con tarjeta de credito)\n▪Transferencia/Depósito por CBU\n▪Pagomiscuentas"
+    },
+    {
         "id":16,
-        "categoria":"ventas",
+        "categoria":"info",
         "titulo":"PLATAFORMA DE CONTENIDO",
         "content":"*PLATAFORMA DE TELEVISIÓN*\n\nEs una página web de nuestro dominio, solo accesible para nuestros clientes, no necesita registrarse ni pagar nada extra para usarla.\nSe puede conectar en cualquier dispositivo que tenga navegador web como televisores, celulares, notebook y demás.\nNo hay límites de conectados, es decir, pueden estar todos en la casa mirando algo distinto y no habría problema.\nTiene principalmente contenido de series y películas extraídas de todas las plataformas más importantes como netflix, hbo, amazon, star plus.\nSi bien no cuenta con TODO el contenido de cada una de ellas, tiene gran variedad y estrenos de cine.\nA su vez, cuenta con algunos canales de aire principalmente informativos."
+    },
+    {
+        "id": 24,
+        "categoria": "info",
+        "titulo": "COMO USAR PLATAFORMA DE TELEVISION",
+        "content": "1- Estar conectado a la red de Amecom en su domicilio.\n2- Acceder a la pagina: video.amecom.com.ar (desde cualquier dispositivo con navegador web).\n3- En pantalla principal verá el contenido general, accediendo al menú las opciones.\n\n*ADICIONAL (podes bajar la app en dispositivos ANDROID)*\n\n4- En la parte final del menú, podrá descargar la APP.\n5- Para habilitar la APP te pide direccion, colocar: video.wninternet.com\n6- Ya configurada con los valores indicados, podra compartir hacia televisores desde el celular por medio de la APP."
+    },
+    {
+        "id": 26,
+        "categoria": "info",
+        "titulo": "DETALLES FIN COORDINACION INSTALACIÓN",
+        "content": "•El pago de la instalación se realiza al técnico en el momento (efectivo/tarjeta/transferencia).\n•Debe respetar la franja horaria para evitar reprogramaciones.\n•Demora estimada de instalaciones entre 40 a 80 min.\n•Si su domicilio tiene cañería interna, dejar previsto tanza o guia.\n•Con respecto a la mensualidad, en caso de no llegarle factura al email, comuniquese 15 días después de la instalación al 3413369928 (whatsapp)."
     },
     {
         "id": 2,
@@ -72,20 +102,14 @@
         "content":"Una vez detectada la red TP LINK\n1- mover el cable principal de internet hacia el puerto WAN del router.\n2- Conectarse a la red TP LINK_(codigo)\n3- La contraseña esta escrita debajo del router, son 8 digitos (PIN/PASSWORD)\nA partir de aqui ya tendra internet. Luego es opcional seguir\n4- *DESDE UN NAVEGADOR WEB ingresar el siguiente codigo*\nIP acceso (en la url del buscador): 192.168.0.1\n5- te pide clave nueva poner: admin123456\nte pide nuevamente la clave poner: admin123456\ntipo de conexión: ip dinámica\n6- te pide nombre: PONER EL QUE QUIERAS DE WIFI\nte pide clave: PONER LA QUE QUIERAS DE WIFI\ndar en terminar. Listo disfrute de su conexion.\n"
     },
     {
-        "id":6,
-        "categoria": "ventas",
-        "titulo": "MEDIOS DE PAGO",
-        "content": "*MEDIOS DE PAGO*\n\nMétodo de cobro sin factura.\n•Rapipago (código de factura)\n•Pagofacil (código de usuario)\n▪MercadoPago\n•Tarjeta de crédito\n•Tarjeta de debito\n•Debito automatico (con tarjeta de credito)\n▪Transferencia/Depósito por CBU\n▪Pagomiscuentas"
-    },
-    {
         "id":8,
-        "categoria":"ventas",
+        "categoria":"info",
         "titulo":"LOCALES HABILITADOS",
         "content":"*Clientes  VGG*\n\n-Local CREDIFIN (frente al club Talleres) \n-Mitre 1354 (local de claro)\n-Mitre 1116 (local de personal)\n\n*Clientes ESTHER*-San martin 1856 (Local Celulares)\n\n*Clientes ARROYO*\n-san martin 753\n\nRecuerde también puede abonar ONLINE desde\nhttps://link.mercadopago.com.ar/amecominternet"
     },
     {
         "id":7,
-        "categoria":"ventas",
+        "categoria":"info",
         "titulo":"CODIGOS DE PAGO",
         "content":"*CÓDIGOS DE PAGO*\n\nSu código de factura para abonar en cualquier *RAPIPAGO* es B-000600\nSu código de usuario para abonar en cualquier *PAGOFACIL* es "
     },
@@ -114,14 +138,8 @@
         "content":"1-Abrir explorador web y tipiar: 192.168.100.1\nusuario: admin\nclave: admin\n\nPANTALLA INICIAL APRETAR EXIT\nPRESIONAR SOBRE ENGRANAJE (ULTIMO ITEM)\n-INGRESAR A WLAN\nalli buscar señal wifi 2.4ghz y veras en password tu clave actual. Reemplazarla.\nguardar los cambios y conectarte."
     },
     {
-        "id":17,
-        "categoria":"info",
-        "titulo":"PRECIOS DE ARTICULOS/SERVICIOS",
-        "content":"Mudanza $12000\nVisita tecnica $4500\nCable por metro $700\nCable fibra por metro $190\nRouter wifi $32000\nRouter usado $20000\nRouter f6 (tenda grande) $38000\nFuente poe $8000\nFuente router $7000\nFuente onu $7000"
-    },
-    {
         "id": 20,
-        "categoria": "ventas",
+        "categoria": "info",
         "titulo": "PROMOCION POR REFERIDO",
         "content": "*PROMO REFERIDOS*\n\nPor tiempo limitado, estamos dando la oportunidad a nuestros usuarios que promuevan el servicio con sus vecinos, amigos y familiares que esten en busca de una nueva conexion a internet por fibra optica más rapida y confiable. Si tenes una referencia de este tipo y esa persona esta interesada en tu propuesta podes pasarnos sus datos (nombre, direccion, telefono, plan solicitado) para que gestionemos una visita de instalación.\n\nBENEFICIO: Una vez completada esta instalacion, usted accederá a 1 mes de servicio totalmente gratis (sea cual sea su plan).\n\nCONDICION: maximo de referidos por usuario registrado es 1 (uno)\n\npromocion sujeta a disponibilidad en la zona vendida."
     },
@@ -143,8 +161,4 @@
         "titulo": "INFO FIBRA OPTICA EMPRESA NO DEDICADO",
         "content": "*Planes de servicio de Internet empresa por fibra optica:*\n\nAbono 20Mbps $19000 FINALES\nAbono 50Mbps $25600 FINALES\nAbono 100Mbps $38400 FINALES"
     }
-    
-    
-    
-    
 ]
