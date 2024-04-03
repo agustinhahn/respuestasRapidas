@@ -16,7 +16,6 @@ function App() {
     <>
       <BrowserRouter>
         <CartContext>
-          <Header />
           <Navbar />
           <Routes>
             <Route exact path="/" element={<FotitoMessi />} />
