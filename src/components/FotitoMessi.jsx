@@ -1,10 +1,10 @@
 import React from 'react'
-import imagen from "../assets/messibesandocopa.png"
+import imagen from "../assets/h-code.png"
 
 const FotitoMessi = () => {
     return (
         <div className='fotomessi'>
-            
+            {/* <img src={imagen} /> */}
         </div>
     )
 }

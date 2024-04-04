@@ -9,7 +9,7 @@ const ModalVistaPrevia = ({content,setModalVP}) => {
     return (
             <div className="divModal">
                 <p className='textModal'>{content}</p>
-                <button onClick={closeModal} className='buttonCloseVP'>Cerrar</button>
+                <button onClick={closeModal} className='buttonCloseVP'>x</button>
             </div>
     );
 }
