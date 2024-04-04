@@ -10,16 +10,13 @@ const CopyButton = ({ titulo, content }) => {
         avisoCopy()
     }
 
-    const randomNumber = Math.ceil((Math.random())*10)
-    let ContentCopy = jsonCopyText.find(item => item.valor === randomNumber)
+    // const randomNumber = Math.ceil((Math.random()) * 10)
+    // let ContentCopy = jsonCopyText.find(item => item.valor === randomNumber)
 
-
-
-    
     const avisoCopy = () => {
-        toast.success(`Esta copiado ${ContentCopy.content}`, {
+        toast.success("copiado", {
             position: "bottom-center",
-            autoClose: 300,
+            autoClose: 5,
             hideProgressBar: true,
             closeOnClick: false,
             pauseOnHover: true,
@@ -27,12 +24,13 @@ const CopyButton = ({ titulo, content }) => {
             progress: undefined,
             theme: "dark",
             transition: Zoom,
-            });
+        });
     }
+
     return (
         <>
             <button className='copybutton' onClick={copiarTextoAlPortapapeles}>{titulo}</button>
-            <ToastContainer />
+            <ToastContainer style={{ width: "150px"}}/>
         </>
     )
 }
