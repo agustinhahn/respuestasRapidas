@@ -21,7 +21,7 @@
         "id": 25,
         "categoria": "ventas",
         "titulo": "EXPLICACION SOBRE EXTENSION",
-        "content": "En los domicilios que precisan propagar su señal de wifi mas allá de la obtenida con el router principal, ofrecemos una solución que consiste en interconectarlo con un router secundario que va a funcionar como expansor de señal.\nEsta tarea se solicita por medio de whatsapp confirmando este mensaje para que se brinde un turno en el lapso de 5 a 10 días.\nLa visita tendría el costo de visita técnica ($6000) + router wifi ($32000) + cable que se utilice para interconectar ambos equipamientos ($700 x metro).\n\nEl valor aproximado de la operacion completa es de $45000 (teniendo en cuenta 10mts de cable)\n\n*NO se cobra mantenimiento adicional por la extension.*"
+        "content": "En los domicilios que precisan propagar su señal de wifi mas allá de la obtenida con el router principal, ofrecemos una solución que consiste en interconectarlo con un router secundario que va a funcionar como expansor de señal.\nEsta tarea se solicita por medio de whatsapp confirmando este mensaje para que se brinde un turno en el lapso de 5 a 10 días.\nLa visita tendría el costo de visita técnica ($6000) + router wifi ($32000) + cable que se utilice para interconectar ambos equipamientos ($700 x metro).\n\nEl valor aproximado de la operacion completa es de $45000 (teniendo en cuenta 10mts de cable)\n\Abonar la tarea en el momento al tecnico tiene el costo antes mencionado, en caso de facturar para proxima cuota se recarga el 20% sobre el valor final.\n\n*NO se cobra mantenimiento adicional por la extension.*"
     },
     {
         "id": 19,
@@ -89,13 +89,13 @@
         "id": 1,
         "categoria": "soporte",
         "titulo": "DESCARGA SATURADA",
-        "content": "El inconveniente que notamos en su conexion es que esta saturando la velocidad contratada de descarga. Es decir que todo su ancho de banda (capacidad para transmitir datos) esta siendo utilizado, esto puede deberse principalmente a descarga de juegos de playstation/actualizaciones de PC o bien, el uso en conjunto de diversos dispositivos operando en internet.\n Le recomendamos inicialmente revisar que no se este llevando a cabo ninguna descarga de los elementos antes mencionados, y de ser asi. Pausarla o aguardar a que finalice para tener nuevamente libre su flujo de datos."
+        "content": "Parece que está usando toda la velocidad de descarga que tiene contratada.\nEsto puede ser porque está descargando juegos de PlayStation, actualizaciones en su computadora o porque varios dispositivos están conectados a internet al mismo tiempo.\nLe recomendamos verificar si hay descargas en curso y pausarlas hasta que la velocidad se normalice."
     },
     {
         "id": 0,
         "categoria": "soporte",
         "titulo": "SUBIDA SATURADA",
-        "content": "Actualmente estas saturando la subida de internet en tu conexión.\nEs decir que desde algún dispositivo, estas generando un consumo elevado hacia un servidor. Usualmente, la subida solo gestiona solicitudes para descargar algo, en este caso actual es constante el envio de paquetes y podemos presuponer que estas subiendo algo. Normalmente se trata de la app *GOOGLE FOTOS* incluida por defecto en todos los teléfonos android o de la copia de seguridad de *Whatsapp*.  Le recomendamos deshabilitar google fotos definitiva o parcialmente siguiendo los pasos en la siguiente guia que le adjuntaremos."
+        "content": "Parece que está usando toda la capacidad de subida de tu conexión a internet.\nEsto sucede cuando algún dispositivo envía muchos datos constantemente, por ejemplo, debido a Google Fotos en teléfonos Android o la copia de seguridad de WhatsApp.\nTe recomendamos desactivar Google Fotos siguiendo nuestros pasos sugeridos."
     },
     {
         "id": 3,
