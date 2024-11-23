@@ -16,7 +16,7 @@ const AreaCopyButton = ({ titulo, content, id, categoria }) => {
             { 
                 modalVP === id ? (
                     <>
-                    <div className='modalGral'>
+                    <div className='modalGral fade-in-top puff-out-center'>
                         <ModalVistaPrevia content={content} setModalVP={setModalVP} />
                     </div>
                 </>

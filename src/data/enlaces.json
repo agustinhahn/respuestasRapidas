@@ -11,8 +11,8 @@
     },
     {
         "id":3,
-        "titulo":"NETONIX's",
-        "direccion":"https://docs.google.com/spreadsheets/d/13u_NP3negP4RBVLHfDgMdvgi0RfA9WlnkhihsCLE4Vo/edit#gid=0"
+        "titulo":"METRICAS GLOBALES",
+        "direccion":"https://docs.google.com/spreadsheets/d/1DegWEQH-WerYKbHeP_C2Y7UgeqjfN2tTvavGiFkHM4o/edit?gid=1825678819#gid=1825678819"
     },
     {
         "id":4,
@@ -38,5 +38,15 @@
         "id":7,
         "titulo":"BALANCEO DE PANELES",
         "direccion":"https://docs.google.com/spreadsheets/d/170Be5GPP5OJRkLjqkqsNssHvKKwQ9a8zaJKe-f9gJQw/edit#gid=657128882"
+    },
+    {
+        "id":3,
+        "titulo":"METRICAS GLOBALES",
+        "direccion":"https://docs.google.com/spreadsheets/d/1DegWEQH-WerYKbHeP_C2Y7UgeqjfN2tTvavGiFkHM4o/edit?gid=1825678819#gid=1825678819"
+    },
+    {
+        "id":9,
+        "titulo":"NETONIX's",
+        "direccion":"https://docs.google.com/spreadsheets/d/13u_NP3negP4RBVLHfDgMdvgi0RfA9WlnkhihsCLE4Vo/edit#gid=0"
     }
 ]

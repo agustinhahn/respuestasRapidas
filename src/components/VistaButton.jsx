@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import ModalVistaPrevia from './ModalVistaPrevia'
 
 
 const VistaButton = ({modalVP,setModalVP, id}) => {

@@ -1,9 +1,31 @@
+/* DECLARACION DE VARIABLES */
+
+:root {
+  --colorFondo: #1a1f34;
+  --colorTitulo: rgb(218, 215, 215);
+  --colorTextButtonNav: #f9f9f7;
+  --colorHoverButtonNav: #c0c086;
+  --colorCopyButton: #262e4957;
+  --colorHoverCopyButton: #262e49;
+  --colorButtonCancel: #e4d7d7;
+  --colorFondoScroll: #1a1f34;
+}
+:root.light-mode {
+  --colorFondo: #c5c5bec2;
+  --colorTitulo: #242323;
+  --colorTextButtonNav: #3a3939;
+  --colorHoverButtonNav: #737472;
+  --colorHoverCopyButton: #cccccc;
+  --colorCopyButton: #e6e6e6;
+  --colorButtonCancel: #e6e6e6;
+  --colorFondoScroll: #fffffac2;
+}
+
 body {
   margin: 0px auto;
   padding: 0px auto;
   height: 100%;
-  background-color: #1a1f34;
-  /* background-color: #749c3f; */
+  background-color: var(--colorFondo);
   overflow-y: scroll;
 }
 
@@ -11,9 +33,8 @@ body {
   padding-right: 15px; /* Ancho de la barra de desplazamiento */
 }
 
-
 .tituloHeader {
-  color: rgb(218, 215, 215);
+  color: var(--colorTitulo);
   opacity: 0.7;
   text-align: center;
   font-size: 38px;
@@ -22,29 +43,15 @@ body {
   letter-spacing: 9px;
   font-weight: 300;
 }
-/* .flicker {
-  animation-name: flicker;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-} */
-
-/* @keyframes flicker {
-  0% {opacity: 1;}
-  25% {opacity: 0.5;}
-  50% {opacity: 1;}
-  75% {opacity: 0.5;}
-  100% {opacity: 1;}
-} */
 
 .buttonsNav {
   display: flex;
   justify-content: space-around;
-  margin-top: 60px;
   margin-bottom: 50px;
 }
 
 .buttonNav {
-  color: #f9f9f7;
+  color: var(--colorTextButtonNav);
   background-color: transparent;
   border: none;
   padding: 0.5rem 1rem;
@@ -55,18 +62,14 @@ body {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
-  /* font-family: "Merriweather", serif; */
-  /* font-weight: 500;
-  font-style: normal; */
   text-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .buttonNav:hover {
-  color: #c0c086;
-  /* Color de texto cuando haces hover */
+  color: var(--colorHoverButtonNav);
 }
 
-.aheader{
+.aheader {
   text-decoration: none;
 }
 
@@ -81,12 +84,12 @@ body {
   display: flex;
 }
 
-.enlaceButton{
+.enlaceButton {
   display: flex;
   justify-content: center;
   padding-right: 73px;
   text-decoration: none;
-  margin:20px
+  margin: 20px;
 }
 
 .copybutton {
@@ -94,41 +97,40 @@ body {
   height: 50px;
   width: 800px;
   border-radius: 15px;
-  background: #23293f50;
+  background: var(--colorCopyButton);
   justify-content: center;
   align-items: center;
   cursor: pointer;
   border: none;
   font-size: 14px;
-  color: #f9f9f7;
-  transition: 300ms;
+  color: var(--colorTextButtonNav);
+  transition: all 0.3s ease-in-out;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: bold;
   opacity: 0.9;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .copybutton:hover {
-  color: #c0c086;
+  background-color: var(--colorHoverCopyButton);
+  color: var(--colorHoverButtonNav);
   font-size: 15px;
   transition: 300ms;
 }
-
-
 
 .buttonVista {
   margin: 12px;
   height: 50px;
   min-width: 50px;
   border-radius: 50px;
-  background: #23293f50;
+  background: var(--colorCopyButton);
   justify-content: center;
   align-items: center;
   cursor: pointer;
   border: none;
   font-size: 15px;
-  color: #f9f9f7;
+  color: var(--colorTextButtonNav);
   transition: 300ms;
   opacity: 0.9;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
@@ -138,14 +140,14 @@ body {
 }
 
 .buttonVista:hover {
-  color: #c0c086;
+  background-color: var(--colorHoverCopyButton);
+  color: var(--colorHoverButtonNav);
   font-size: 18px;
   transition: 500ms;
 }
 
-
 .modalVistaPrevia {
-  background-color: white;
+  background-color: var(--colorTextButtonNav);
   min-height: 200px;
   min-width: 200px;
 }
@@ -157,7 +159,7 @@ body {
 
 .divModal {
   margin-top: 10px;
-  color: #f9f9f7;
+  color: var(--colorTextButtonNav);
   height: auto;
   width: 800px;
   font-size: 15px;
@@ -172,6 +174,9 @@ body {
 }
 
 .textModal {
+  width: 95%;
+  display: flex;
+  justify-content: center;
   text-align: left;
   margin-bottom: 30px;
   white-space: pre-wrap;
@@ -183,29 +188,81 @@ body {
   padding: 10px;
   margin: 12px;
   height: 30px;
-  width: 50px;
-  border-radius: 1px;
-  background: #813e3e;
+  width: 30px;
+  border-radius: 15px;
+  background: var(--colorButtonCancel);
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   border: none;
   font-size: 13px;
-  color: #f9f9f7;
-  transition: 300ms;
+  color: var(--colorTextButtonNav);
+  transition: all 0.3s ease-in-out;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .buttonCloseVP:hover {
-  color: #dad4d4;
+  scale: 1.2;
   font-size: 14px;
-  transition: 200ms;
 }
 
-.fotomessi{
+.fotomessi {
   display: flex;
   justify-content: center;
+}
+
+/* ESTILOS SCROLL */
+/* Personaliza la barra de scroll */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de scroll */
+}
+
+/* Personaliza la pista de la barra de scroll */
+::-webkit-scrollbar-track {
+  background: var(--colorFondoScroll); /* Color de la pista */
+}
+
+/* Personaliza el "thumb" de la barra de scroll (la parte que se arrastra) */
+::-webkit-scrollbar-thumb {
+  background-color: var(--colorFondo); /* Color del "thumb" */
+  border: 2px solid var(--colorTextButtonNav); /* Añade un borde al "thumb" */
+}
+
+/* Cambia el color del "thumb" al pasar el mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--colorHoverButtonNav); /* Color al pasar el mouse */
+}
+
+/* ANIMACIONES DE ENTRADA */
+
+.fade-in-top {
+  -webkit-animation: fade-in-top 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-top 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+@-webkit-keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
 }

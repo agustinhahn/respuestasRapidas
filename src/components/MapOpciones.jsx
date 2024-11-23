@@ -3,6 +3,7 @@ import AreaCopyButton from './AreaCopyButton'
 import { useParams } from 'react-router-dom';
 
 
+
 const MapOpciones = ({data}) => {
 
     const {categoria} = useParams()
