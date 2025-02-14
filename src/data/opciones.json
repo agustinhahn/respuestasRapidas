@@ -21,7 +21,7 @@
         "id": 25,
         "categoria": "ventas",
         "titulo": "EXPLICACION SOBRE EXTENSION",
-        "content": "En los domicilios que precisan propagar su señal de wifi mas allá de la obtenida con el router principal, ofrecemos una solución que consiste en interconectarlo con un router secundario que va a funcionar como expansor de señal.\nEsta tarea se solicita por medio de whatsapp confirmando este mensaje para que se brinde un turno en el lapso de 5 a 10 días.\nLa visita tendría el costo de visita técnica ($6000) + router wifi ($32000) + cable que se utilice para interconectar ambos equipamientos ($700 x metro).\n\nEl valor aproximado de la operacion completa es de $45000 (teniendo en cuenta 10mts de cable)\n\nLa tarea realizada bajo los costos anteriormente mencionados se abona en el momento a los tecnicos.\n\n*NO se cobra mantenimiento adicional por la extension.*"
+        "content": "En los domicilios que precisan propagar su señal de wifi mas allá de la obtenida con el router principal, ofrecemos una solución que consiste en interconectarlo con un router secundario que va a funcionar como expansor de señal.\nEsta tarea se solicita por medio de whatsapp confirmando este mensaje para que se brinde un turno en el lapso de 5 a 10 días.\nLa visita tendría el costo de visita técnica ($12000) + router wifi ($32000) + cable que se utilice para interconectar ambos equipamientos ($1000 x metro).\n\nEl valor aproximado de la operacion completa es de $54000 (teniendo en cuenta 10mts de cable)\n\nLa tarea realizada bajo los costos anteriormente mencionados se abona en el momento a los tecnicos.\n\n*NO se cobra mantenimiento adicional por la extension.*"
     },
     {
         "id": 19,
@@ -33,7 +33,7 @@
         "id":17,
         "categoria":"info",
         "titulo":"PRECIOS DE ARTICULOS/SERVICIOS",
-        "content":"Mudanza $20000\nVisita tecnica $6000\nCable por metro $700\nCable fibra por metro $190\nRouter wifi $32000\nRouter usado $20000\nRouter f6 (tenda grande) $38000\nFuente poe $8000\nFuente router $7000\nFuente onu $7000"
+        "content":"Mudanza $20000\nVisita tecnica $12000\nCable por metro $1000\nCable fibra por metro $200\nRouter wifi $32000\nRouter usado $20000\nRouter f6 (tenda grande) $38000\nFuente poe $8000\nFuente router $7000\nFuente onu $7000"
     },
     {
         "id":9,
