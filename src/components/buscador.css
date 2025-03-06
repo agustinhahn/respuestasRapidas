@@ -1,0 +1,74 @@
+.buscadorContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.tituloBuscador{
+    color: var(--colorTitulo);
+    font-family: "Rubik Glitch", system-ui;
+}
+.inputBuscador {
+    border: 2px solid transparent;
+    padding: 10px 15px;
+    font-family: "Rubik Glitch", system-ui;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #f3f4f6; /* Gris claro elegante */
+    color: #333; /* Texto oscuro para contraste */
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    min-width: 400px;
+}
+
+.inputBuscador:focus {
+    border-color: #6b6de2; /* Morado suave para el foco */
+    background-color: #fff; /* Blanco para enfoque */
+    box-shadow: 0 0 15px rgba(107, 109, 226, 0.5);
+}
+
+.inputBuscador::placeholder {
+    color: #999; /* Placeholder elegante */
+    font-family: "Rubik Glitch", system-ui;
+}
+
+.listaResultados {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 400px;
+}
+
+.resultadoItem {
+    padding: 8px 12px;
+    border-bottom: 2px solid #e0e0e0;
+    transition: background-color 0.2s;
+    font-family: "Rubik Glitch", system-ui;
+    text-align: center;
+}
+
+.resultadoItem a {
+    text-decoration: none;
+    color: #ecece6;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all ease-in-out 0.1s;
+}
+
+.resultadoItem:hover {
+    background-color: var(--colorHoverButtonNav);
+}
+.resultadoItem a:hover{
+    color: rgb(71, 71, 71)
+}
+
+.resultadoItem:last-child {
+    border-bottom: none;
+}

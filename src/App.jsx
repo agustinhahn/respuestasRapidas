@@ -8,6 +8,7 @@ import jsonOpciones from "./data/opciones.json"
 import FotitoMessi from './components/FotitoMessi'
 import jsonEnlaces from "./data/enlaces.json"
 import SwitchButton from './components/SwitchButton'
+import Buscador from './components/Buscador'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
             <Route exact path="/" element={<FotitoMessi />} />
             <Route exact path="/:categoria" element={<MapOpciones data={jsonOpciones} />} />
             <Route exact path="/ENLACES" element={<MapEnlaces dataEnlaces={jsonEnlaces} />} />
+            <Route exact path="/buscador" element={<Buscador />} />
             {/* <Route path="*" element={<Navigate to="/" />} /> */}
           </Routes>
         </CartContext>

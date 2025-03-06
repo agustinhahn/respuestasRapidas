@@ -6,13 +6,14 @@ const Navbar = () => {
     return (
         <>
         <div className='buttonsNav'>
-        {
-            jsonDataNav.map(item => (
-                <div key={item.id}>
-                    <NavbarButton titulo={item.titulo} categoria={item.categoria} />
-                </div>
-            ))
-        }
+            <NavbarButton titulo="BUSCADOR" categoria="buscador" />
+            {
+                jsonDataNav.map(item => (
+                    <div key={item.id}>
+                        <NavbarButton titulo={item.titulo} categoria={item.categoria} />
+                    </div>
+                ))
+            }
         </div>
         </>
     )
