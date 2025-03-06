@@ -14,7 +14,7 @@
     padding: 10px 15px;
     font-family: "Rubik Glitch", system-ui;
     font-size: 16px;
-    border-radius: 8px;
+    border-radius: 15px;
     background-color: #f3f4f6; /* Gris claro elegante */
     color: #333; /* Texto oscuro para contraste */
     transition: all 0.3s ease;
@@ -24,9 +24,9 @@
 }
 
 .inputBuscador:focus {
-    border-color: #6b6de2; /* Morado suave para el foco */
+    border-color: #2a2cb3; /* Morado suave para el foco */
     background-color: #fff; /* Blanco para enfoque */
-    box-shadow: 0 0 15px rgba(107, 109, 226, 0.5);
+    box-shadow: 0 0 15px rgba(48, 51, 180, 0.5);
 }
 
 .inputBuscador::placeholder {
@@ -41,7 +41,7 @@
     margin-top: 10px;
     list-style: none;
     padding: 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
     min-width: 400px;
 }
 
@@ -60,10 +60,12 @@
     font-size: 20px;
     font-weight: bold;
     transition: all ease-in-out 0.1s;
+    border-radius: 15px;
 }
 
 .resultadoItem:hover {
     background-color: var(--colorHoverButtonNav);
+    
 }
 .resultadoItem a:hover{
     color: rgb(71, 71, 71)
