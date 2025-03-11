@@ -9,15 +9,15 @@ const Buscador = () => {
   // Función para obtener el label correspondiente según el origen
   const getLabel = (origen) => {
     switch (origen) {
-      case "http://200.0.213.9:91/graphs/":
+      case "http://200.0.213.9:91/graphs":
         return "CCR2 viejo";
-      case "http://161.0.72.6:91/graphs/":
+      case "http://161.0.72.6:91/graphs":
         return "CCR2 nuevo";
-      case "http://172.16.5.13:81/graphs/":
+      case "http://172.16.5.13:81/graphs":
         return "CCR3";
-      case "http://161.0.75.129:91/graphs/":
+      case "http://161.0.75.129:91/graphs":
         return "CCR4";
-      case "http://161.0.75.33:81/graphs/":
+      case "http://161.0.75.33:81/graphs":
         return "CCR5";
       default:
         return "Desconocido"; // Si el origen no coincide, muestra 'Desconocido'
