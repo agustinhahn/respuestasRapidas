@@ -36,8 +36,8 @@ const Buscador = () => {
         <ul className='listaResultados'>
           {resultados.map((user, index) => (
             <li key={index} className='resultadoItem'>
-              <a href={user.direccionip} target="_blank" rel="noopener noreferrer">
-                {user.nombre} | {user.router} | {user.plan}
+              <a href={user.url} target="_blank" rel="noopener noreferrer">
+                {user.cliente} | {user.origen} | {user.pagina}
               </a>
             </li>
           ))}
