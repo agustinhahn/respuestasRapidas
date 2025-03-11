@@ -12,8 +12,8 @@ const Buscador = () => {
       setResultados([]); // No mostrar nada si el input está vacío
     } else {
       const coincidencias = data
-        .filter(user => user.nombre.toLowerCase().includes(filtro.toLowerCase()))
-        .sort((a, b) => a.nombre.localeCompare(b.nombre)) // Ordenar alfabéticamente
+        .filter(user => user.cliente.toLowerCase().includes(filtro.toLowerCase()))
+        .sort((a, b) => a.cliente.localeCompare(b.cliente)) // Ordenar alfabéticamente
         .slice(0, 5); // Limitar a 5 resultados
 
       setResultados(coincidencias);
