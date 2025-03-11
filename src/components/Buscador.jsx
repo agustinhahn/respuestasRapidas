@@ -6,6 +6,24 @@ const Buscador = () => {
   const [filtro, setFiltro] = useState("");
   const [resultados, setResultados] = useState([]);
 
+  // Función para obtener el label correspondiente según el origen
+  const getLabel = (origen) => {
+    switch (origen) {
+      case "http://200.0.213.9:91/graphs/":
+        return "CCR2 viejo";
+      case "http://161.0.72.6:91/graphs/":
+        return "CCR2 nuevo";
+      case "http://172.16.5.13:81/graphs/":
+        return "CCR3";
+      case "http://161.0.75.129:91/graphs/":
+        return "CCR4";
+      case "http://161.0.75.33:81/graphs/":
+        return "CCR5";
+      default:
+        return "Desconocido"; // Si el origen no coincide, muestra 'Desconocido'
+    }
+  };
+
   // Filtrar resultados en base a lo que se escribe
   useEffect(() => {
     if (filtro.trim() === "") {
@@ -14,7 +32,7 @@ const Buscador = () => {
       const coincidencias = data
         .filter(user => user.cliente.toLowerCase().includes(filtro.toLowerCase()))
         .sort((a, b) => a.cliente.localeCompare(b.cliente)) // Ordenar alfabéticamente
-        .slice(0, 5); // Limitar a 5 resultados
+        .slice(0, 8); // Limitar a 8 resultados
 
       setResultados(coincidencias);
     }
@@ -37,7 +55,7 @@ const Buscador = () => {
           {resultados.map((user, index) => (
             <li key={index} className='resultadoItem'>
               <a href={user.url} target="_blank" rel="noopener noreferrer">
-                {user.cliente} | {user.origen} | {user.pagina}
+                {user.cliente} | {getLabel(user.origen)} | {user.pagina}
               </a>
             </li>
           ))}
