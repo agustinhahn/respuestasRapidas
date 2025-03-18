@@ -46,7 +46,7 @@ const Buscador = () => {
         placeholder='A QUIEN BUSCAS MASTER? 🧐'
         className='inputBuscador'
         value={filtro}
-        onChange={(e) => setFiltro(e.target.value.replace(/^\s+|\s+$/g, ''))}  // Eliminar solo espacios antes y después
+        onChange={(e) => setFiltro(e.target.value.replace(/^\s+/, ''))}  // Eliminar solo los espacios antes de la palabra
       />
 
       {/* Mostrar resultados */}
