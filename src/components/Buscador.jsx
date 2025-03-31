@@ -19,6 +19,10 @@ const Buscador = () => {
         return "CCR4";
       case "http://161.0.75.33:81/graphs":
         return "CCR5";
+      case "http://172.16.0.17:91/graphs":
+        return "LAUGE";
+      case "http://10.0.46.1:91/graphs":
+        return "ARROYO";
       default:
         return "Desconocido"; // Si el origen no coincide, muestra 'Desconocido'
     }
@@ -40,7 +44,7 @@ const Buscador = () => {
 
   return (
     <div className='buscadorContainer'>
-      <h2 className='tituloBuscador'>CCR2 VIEJO | CCR2 NUEVO | CCR3 | CCR4 | CCR5</h2>
+      <h2 className='tituloBuscador'>TODOS LOS MIKROTIK</h2>
       <input
         type="text"
         placeholder='A QUIEN BUSCAS MASTER? 🧐'
