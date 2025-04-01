@@ -19,9 +19,9 @@ const Buscador = () => {
         return "CCR4";
       case "http://161.0.75.33:81/graphs":
         return "CCR5";
-      case "http://172.16.0.17:91/graphs":
+      case "http://172.16.0.17:91/graphs/":
         return "LAUGE";
-      case "http://10.0.46.1:91/graphs":
+      case "http://10.0.46.1:91/graphs/":
         return "ARROYO";
       default:
         return "Desconocido"; // Si el origen no coincide, muestra 'Desconocido'
