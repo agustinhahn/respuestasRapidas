@@ -15,7 +15,7 @@
         "id":23,
         "categoria":"ventas",
         "titulo":"INFO FIBRA BONIFICADA",
-        "content":"📶 SERVICIO POR FIBRA ÓPTICA\n\n¡Hola! 😊 Te explico rápido cómo funciona la promo vigente:\n\n💥 PROMOCIÓN ESPECIAL: la instalación está 100% bonificada, ¡no pagás nada por conectarte! 🙌\nSolo abonás el plan mensual que elijas\nIncluye además el módem WiFi en comodato (te lo dejamos sin costo).\n\n📦 Planes disponibles:\n\n- 6 Mbps → $21.300\n- 10 Mbps → $25.000\n- 15 Mbps → $29.400 👉 $27.400\n- 20 Mbps → $32.300 👉 $30.300\n- 50 Mbps → $33.900 👉 $31.900\n- 100 Mbps → $41.500 👉 $39.500\n\n📉 Los precios incluyen un descuento fijo de $2000 durante los primeros 6 meses.\n\n🎬 Además, tenés acceso GRATIS a nuestra plataforma con películas, series y canales online.\n\n⚠️ Importante: la demora en la instalación puede variar, ¡consultanos para confirmar turnos!\n\n¿Querés que agendemos tu conexión? 🚀"
+        "content":"📶 SERVICIO POR FIBRA ÓPTICA\n\n¡Hola! 😊 Te explico rápido cómo funciona la promo vigente:\n\n💥 PROMOCIÓN ESPECIAL: la instalación está 100% bonificada, ¡no pagás nada por conectarte! 🙌\nSolo abonás el plan mensual que elijas\nIncluye además el módem WiFi en comodato (te lo dejamos sin costo).\n\n📦 Planes disponibles:\n\n- 6 Mbps → $21.300\n- 10 Mbps → $25.000\n- 15 Mbps → <s>$29.400</s> 👉 $27.400\n- 20 Mbps → <s>$32.300</s> 👉 $30.300\n- 50 Mbps → <s>$33.900</s> 👉 $31.900\n- 100 Mbps → <s>$41.500</s> 👉 $39.500\n\n📉 Los precios incluyen un descuento fijo de $2000 durante los primeros 6 meses.\n\n🎬 Además, tenés acceso GRATIS a nuestra plataforma con películas, series y canales online.\n\n⚠️ Importante: la demora en la instalación puede variar, ¡consultanos para confirmar turnos!\n\n¿Querés que agendemos tu conexión? 🚀"
     },
     {
         "id":10,
@@ -182,6 +182,7 @@
         "content": "*Planes de servicio de internet simetrico y dedicado:*\n\nABONO EMPRESAS 10 MB    180 usd (final, Impuestos ya incluidos)\nABONO EMPRESAS 20 MB  320 usd (final, Impuestos ya incluidos)\nABONO EMPRESAS 50 MB    520 usd (final, Impuestos ya incluidos)\nABONO EMPRESAS 100 MB   950 usd  (final, Impuestos ya incluidos)"
     }
 ]
+
 
 
 
