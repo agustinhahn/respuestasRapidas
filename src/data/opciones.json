@@ -24,13 +24,13 @@
         "content":"*ALTA DE SERVICIO*\n\nPor favor complete los siguientes datos para dar de alta su solicitud:\n\nNombre y apellido completo:\nDomicilio de conexión:\nTeléfono de contacto:\nDni:\nEmail:\nPlan / abono mensual elegido:\n"
     },
         {
-        "id":24,
+        "id":30,
         "categoria":"ventas",
         "titulo":"DESCUENTO, QUEDATE PORFA 1er intento",
         "content":"Bonificacion especial 🚀\n\nLos mejores descuentos, para los mejores clientes 🤝🏻\n\n- 100 Mbps → $41.500 👉 $21.000\n- 200 Mbps → $46.000 👉 $23.000\n- 300 Mbps → $50.000 👉 $25.000\n\nMayor velocidad, mejor precio ! ⚡\n\n¿Con cual plan queres continuar desde ahora? La activacion, es inmediata 💪\n\nPromocion válida por 6 meses, abono mensual sujeto a modificaciones."
     },
         {
-        "id":25,
+        "id":31,
         "categoria":"ventas",
         "titulo":"DESCUENTO, INTENTO FINAL",
         "content":"Queremos ofrecerte una promo especial para que sigas con nosotros 💙\n\n📶 Plan de 100 Mbps por solo $18.000 final mensuales. Misma calidad, mejor precio 🚀\n\nSi te interesa, te lo activamos enseguida ✅\n¿Querés que te lo deje confirmado?\n\Precio congelado hasta fin de año."
@@ -194,6 +194,7 @@
         "content": "*Planes de servicio de internet simetrico y dedicado:*\n\nABONO EMPRESAS 10 MB    180 usd (final, Impuestos ya incluidos)\nABONO EMPRESAS 20 MB  320 usd (final, Impuestos ya incluidos)\nABONO EMPRESAS 50 MB    520 usd (final, Impuestos ya incluidos)\nABONO EMPRESAS 100 MB   950 usd  (final, Impuestos ya incluidos)"
     }
 ]
+
 
 
 
