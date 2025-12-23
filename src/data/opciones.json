@@ -9,7 +9,7 @@
         "id":15,
         "categoria":"ventas",
         "titulo":"INFO SERVICIO INALAMBRICO",
-        "content":"*SERVICIO INALAMBRICO*\n\nTe explico brevemente, la instalación cuesta $50.000 (sin router wifi) y $75.000 (con router wifi), importe que debe ser abonado en el momento de la conexión.\nSe instala una pequeña antena en el techo o terraza del domicilio (queda en COMODATO).\n\n*PLANES NOVIEMBRE* :\nAbono 3 Mbps $22.300 (impuestos incluidos)\nAbono 6 Mbps $27.000 (incluye ACCESO GRATUITO a plataforma propia de vídeos, películas y series) (impuestos incluidos)\nAbono 10 Mbps $30.300( incluye ACCESO GRATUITO a plataforma propia de vídeos, películas y series) (impuestos incluidos)\n\n*Abono mensual sujeto a modificaciones*\n\nLa instalación cuenta también con bonificación de los primeros 15 días de uso. Usted pagaría su primer cuota una vez finalizado ese plazo (verifique la factura y abone mediante la APP o bien comunicándose por este medio se le informará de los medios de pago y fecha de vencimiento correspondiente).\n\n*/LA DEMORA PUEDE VARIAR/*"
+        "content":"*SERVICIO INALAMBRICO*\n\nTe explico brevemente, la instalación cuesta $50.000 (sin router wifi) y $75.000 (con router wifi), importe que debe ser abonado en el momento de la conexión.\nSe instala una pequeña antena en el techo o terraza del domicilio (queda en COMODATO).\n\n*PLANES ENERO* :\nAbono 3 Mbps $22.300 (impuestos incluidos)\nAbono 6 Mbps $27.000 (incluye ACCESO GRATUITO a plataforma propia de vídeos, películas y series) (impuestos incluidos)\nAbono 10 Mbps $30.300( incluye ACCESO GRATUITO a plataforma propia de vídeos, películas y series) (impuestos incluidos)\n\n*Abono mensual sujeto a modificaciones*\n\nLa instalación cuenta también con bonificación de los primeros 15 días de uso. Usted pagaría su primer cuota una vez finalizado ese plazo (verifique la factura y abone mediante la APP o bien comunicándose por este medio se le informará de los medios de pago y fecha de vencimiento correspondiente).\n\n*/LA DEMORA PUEDE VARIAR/*"
     },
         {
         "id":23,
@@ -191,7 +191,7 @@
         "id": 21,
         "categoria": "ventas",
         "titulo": "INFO SERVICIO PARA EMPRESAS",
-        "content": "*INFORMACION DE SERVICIO PARA EMPRESAS*\n\nEl servicio de internet que proveemos es inalámbrico (via antena de radiofrecuencia), y pueden optar por un servicio NO DEDICADO o DEDICADO punto a punto. La diferencia es que el dedicado es ILIMITADO en su cuota y permite brindar NOVIEMBREr ancho de banda SIMÉTRICA, estabilidad, seguridad y disponibilidad.\n\nAmbos tienen soporte técnico gratuito, IP PUBLICA fija, y atención personalizada de un ejecutivo de cuenta.\n\n*Planes de Servicio de Internet no dedicado (ancho de banda real garantizado, enlace punto a punto)*\n\nABONO EMPRESAS 3 MB download, 1mb upload ................................................. $22.575 (final, Impuestos ya incluidos)\n ABONO EMPRESAS 6 MB download, 2mb upload ................................................. $34.600 (final, Impuestos ya incluidos)\n ABONO EMPRESAS 10 MB download, 4mb upload ............................................... $42.300 (final, Impuestos ya incluidos)\n\n*Costo de Instalación: $70000/.- (NO INCLUYE ROUTER - se puede sumar por $35000/ extra)*"
+        "content": "*INFORMACION DE SERVICIO PARA EMPRESAS*\n\nEl servicio de internet que proveemos es inalámbrico (via antena de radiofrecuencia), y pueden optar por un servicio NO DEDICADO o DEDICADO punto a punto. La diferencia es que el dedicado es ILIMITADO en su cuota y permite brindar ancho de banda SIMÉTRICA, estabilidad, seguridad y disponibilidad.\n\nAmbos tienen soporte técnico gratuito, IP PUBLICA fija, y atención personalizada de un ejecutivo de cuenta.\n\n*Planes de Servicio de Internet no dedicado (ancho de banda real garantizado, enlace punto a punto)*\n\nABONO EMPRESAS 3 MB download, 1mb upload ................................................. $22.575 (final, Impuestos ya incluidos)\n ABONO EMPRESAS 6 MB download, 2mb upload ................................................. $34.600 (final, Impuestos ya incluidos)\n ABONO EMPRESAS 10 MB download, 4mb upload ............................................... $42.300 (final, Impuestos ya incluidos)\n\n*Costo de Instalación: $70000/.- (NO INCLUYE ROUTER - se puede sumar por $35000/ extra)*"
     },
     {
         "id": 22,
@@ -200,6 +200,7 @@
         "content": "*Planes de servicio de internet simetrico y dedicado:*\n\nABONO EMPRESAS 10 MB    180 usd (final, Impuestos ya incluidos)\nABONO EMPRESAS 20 MB  320 usd (final, Impuestos ya incluidos)\nABONO EMPRESAS 50 MB    520 usd (final, Impuestos ya incluidos)\nABONO EMPRESAS 100 MB   950 usd  (final, Impuestos ya incluidos)"
     }
 ]
+
 
 
 
